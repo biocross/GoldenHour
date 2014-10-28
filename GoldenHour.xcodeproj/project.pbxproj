@@ -14,6 +14,8 @@
 		3567ADAF19FFC90D00C6516D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3567ADAE19FFC90D00C6516D /* Images.xcassets */; };
 		3567ADB219FFC90D00C6516D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3567ADB019FFC90D00C6516D /* LaunchScreen.xib */; };
 		3567ADBE19FFC90D00C6516D /* GoldenHourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3567ADBD19FFC90D00C6516D /* GoldenHourTests.m */; };
+		35CCFAE31A0009A500EEFA17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCFAE21A0009A500EEFA17 /* CoreBluetooth.framework */; };
+		35CCFAE51A0009AA00EEFA17 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCFAE41A0009AA00EEFA17 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		3567ADB719FFC90D00C6516D /* GoldenHourTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoldenHourTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3567ADBC19FFC90D00C6516D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3567ADBD19FFC90D00C6516D /* GoldenHourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldenHourTests.m; sourceTree = "<group>"; };
+		35CCFAE21A0009A500EEFA17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		35CCFAE41A0009AA00EEFA17 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35CCFAE51A0009AA00EEFA17 /* CoreLocation.framework in Frameworks */,
+				35CCFAE31A0009A500EEFA17 /* CoreBluetooth.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +69,8 @@
 		3567AD9519FFC90C00C6516D = {
 			isa = PBXGroup;
 			children = (
+				35CCFAE41A0009AA00EEFA17 /* CoreLocation.framework */,
+				35CCFAE21A0009A500EEFA17 /* CoreBluetooth.framework */,
 				3567ADA019FFC90D00C6516D /* GoldenHour */,
 				3567ADBA19FFC90D00C6516D /* GoldenHourTests */,
 				3567AD9F19FFC90D00C6516D /* Products */,
@@ -412,6 +420,7 @@
 				3567ADC319FFC90D00C6516D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3567ADC419FFC90D00C6516D /* Build configuration list for PBXNativeTarget "GoldenHourTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +429,7 @@
 				3567ADC619FFC90D00C6516D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
