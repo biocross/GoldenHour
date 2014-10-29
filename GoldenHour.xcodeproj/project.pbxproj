@@ -16,6 +16,7 @@
 		3567ADBE19FFC90D00C6516D /* GoldenHourTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3567ADBD19FFC90D00C6516D /* GoldenHourTests.m */; };
 		35CCFAE31A0009A500EEFA17 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCFAE21A0009A500EEFA17 /* CoreBluetooth.framework */; };
 		35CCFAE51A0009AA00EEFA17 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35CCFAE41A0009AA00EEFA17 /* CoreLocation.framework */; };
+		42C96E7D1A012F4800C6453E /* HospitalsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42C96E7C1A012F4800C6453E /* HospitalsTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		3567ADBD19FFC90D00C6516D /* GoldenHourTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoldenHourTests.m; sourceTree = "<group>"; };
 		35CCFAE21A0009A500EEFA17 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		35CCFAE41A0009AA00EEFA17 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		42C96E7B1A012F4800C6453E /* HospitalsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalsTableViewController.h; sourceTree = "<group>"; };
+		42C96E7C1A012F4800C6453E /* HospitalsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalsTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +97,8 @@
 				3567ADA819FFC90D00C6516D /* ViewController.h */,
 				3567ADA919FFC90D00C6516D /* ViewController.m */,
 				3567ADAB19FFC90D00C6516D /* Main.storyboard */,
+				42C96E7B1A012F4800C6453E /* HospitalsTableViewController.h */,
+				42C96E7C1A012F4800C6453E /* HospitalsTableViewController.m */,
 				3567ADAE19FFC90D00C6516D /* Images.xcassets */,
 				3567ADB019FFC90D00C6516D /* LaunchScreen.xib */,
 				3567ADA119FFC90D00C6516D /* Supporting Files */,
@@ -230,6 +235,7 @@
 				3567ADAA19FFC90D00C6516D /* ViewController.m in Sources */,
 				3567ADA719FFC90D00C6516D /* AppDelegate.m in Sources */,
 				3567ADA419FFC90D00C6516D /* main.m in Sources */,
+				42C96E7D1A012F4800C6453E /* HospitalsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
